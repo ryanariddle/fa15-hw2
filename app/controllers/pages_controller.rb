@@ -6,6 +6,7 @@ class PagesController < ApplicationController
 
   def stringify
     @text = "You are nothing!"
+    redirect_to "/age"
   end
 
   def age
